@@ -1,0 +1,1827 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<BCS has_signature="true">
+    <U_2C value="0x1" />
+    <F_30 value="1.0, 1.0, 0.645550013, 2.0, 0.649999976, 1.04999995, 0.0" />
+    <PartSet idx="0">
+        <Part idx="0">
+            <!--Face_base-->
+            <MODEL value="0" />
+            <MODEL2 value="0" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="1">
+            <!--Face_forehead-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="2">
+            <!--Face_eye-->
+            <MODEL value="0" />
+            <MODEL2 value="0" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.800000012" />
+            <F_28 value="0.699999988" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="3">
+            <!--Face_nose-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="4">
+            <!--Face_ear-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="5">
+            <!--Hair-->
+            <MODEL value="65535" />
+            <MODEL2 value="65535" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+            <PhysicsObject>
+                <U_00 value="0xffff" />
+                <U_02 value="0xffff" />
+                <U_04 value="0x0" />
+                <U_18 value="0x0" />
+                <U_1C value="0x0" />
+                <U_20 value="0x0" />
+                <NAME value="ZG2" />
+                <STR_28 value="ZG2_000_hair_scd, ZG2_000_hair_scd, ZG2_000_hair_scd, NULL, b_C_Head, ZG2_000_hair" />
+            </PhysicsObject>
+        </Part>
+        <Part idx="6">
+            <!--Bust-->
+            <MODEL value="32" />
+            <MODEL2 value="32" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+            <PhysicsObject>
+                <U_00 value="0xffff" />
+                <U_02 value="0xffff" />
+                <U_04 value="0x0" />
+                <U_18 value="0x0" />
+                <U_1C value="0x0" />
+                <U_20 value="0x0" />
+                <NAME value="ZG2" />
+                <STR_28 value="ZG2_032_obi_scd, ZG2_032_Bust, ZG2_032_Bust, NULL, b_C_Pelvis, ZG2_032_obi" />
+            </PhysicsObject>
+        </Part>
+        <Part idx="7">
+            <!--Pants-->
+            <MODEL value="32" />
+            <MODEL2 value="32" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="8">
+            <!--Rist-->
+            <MODEL value="32" />
+            <MODEL2 value="32" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="9">
+            <!--Boots-->
+            <MODEL value="32" />
+            <MODEL2 value="32" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+    </PartSet>
+    <PartSet idx="1">
+        <Part idx="0">
+            <!--Face_base-->
+            <MODEL value="0" />
+            <MODEL2 value="0" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="1">
+            <!--Face_forehead-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="2">
+            <!--Face_eye-->
+            <MODEL value="0" />
+            <MODEL2 value="0" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.800000012" />
+            <F_28 value="0.699999988" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="3">
+            <!--Face_nose-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="4">
+            <!--Face_ear-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="5">
+            <!--Hair-->
+            <MODEL value="65535" />
+            <MODEL2 value="65535" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+            <PhysicsObject>
+                <U_00 value="0xffff" />
+                <U_02 value="0xffff" />
+                <U_04 value="0x0" />
+                <U_18 value="0x0" />
+                <U_1C value="0x0" />
+                <U_20 value="0x0" />
+                <NAME value="ZG2" />
+                <STR_28 value="ZG2_000_hair_scd, ZG2_000_hair_scd, ZG2_000_hair_scd, NULL, b_C_Head, ZG2_000_hair" />
+            </PhysicsObject>
+        </Part>
+        <Part idx="6">
+            <!--Bust-->
+            <MODEL value="32" />
+            <MODEL2 value="32" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+            <PhysicsObject>
+                <U_00 value="0xffff" />
+                <U_02 value="0xffff" />
+                <U_04 value="0x0" />
+                <U_18 value="0x0" />
+                <U_1C value="0x0" />
+                <U_20 value="0x0" />
+                <NAME value="ZG2" />
+                <STR_28 value="ZG2_032_obi_scd, ZG2_032_Bust, ZG2_032_Bust, NULL, b_C_Pelvis, ZG2_032_obi" />
+            </PhysicsObject>
+        </Part>
+        <Part idx="7">
+            <!--Pants-->
+            <MODEL value="32" />
+            <MODEL2 value="32" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="8">
+            <!--Rist-->
+            <MODEL value="32" />
+            <MODEL2 value="32" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="9">
+            <!--Boots-->
+            <MODEL value="32" />
+            <MODEL2 value="32" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+    </PartSet>
+    <PartSet idx="2">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="3">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="4">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="5">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="6">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="7">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="8">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="9">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="10">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="11">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="12">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="13">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="14">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="15">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="16">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="17">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="18">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="19">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="20">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="21">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="22">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="23">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="24">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="25">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="26">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="27">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="28">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="29">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="30">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="31">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="32">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="33">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="34">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="35">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="36">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="37">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="38">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="39">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="40">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="41">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="42">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="43">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="44">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="45">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="46">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="47">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="48">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="49">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="50">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="51">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="52">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="53">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="54">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="55">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="56">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="57">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="58">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="59">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="60">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="61">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="62">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="63">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="64">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="65">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="66">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="67">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="68">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="69">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="70">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="71">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="72">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="73">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="74">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="75">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="76">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="77">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="78">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="79">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="80">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="81">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="82">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="83">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="84">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="85">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="86">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="87">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="88">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="89">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="90">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="91">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="92">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="93">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="94">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="95">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="96">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="97">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="98">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="99">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="100">
+        <Part idx="0">
+            <!--Face_base-->
+            <MODEL value="1" />
+            <MODEL2 value="1" />
+            <TEXTURE value="2" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="1">
+            <!--Face_forehead-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="2">
+            <!--Face_eye-->
+            <MODEL value="1" />
+            <MODEL2 value="1" />
+            <TEXTURE value="2" />
+            <U_10 value="0x1" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.600000024" />
+            <F_28 value="0.699999988" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="3">
+            <!--Face_nose-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="4">
+            <!--Face_ear-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="5">
+            <!--Hair-->
+            <MODEL value="65535" />
+            <MODEL2 value="65535" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+            <PhysicsObject>
+                <U_00 value="0xffff" />
+                <U_02 value="0xffff" />
+                <U_04 value="0x0" />
+                <U_18 value="0x2" />
+                <U_1C value="0x0" />
+                <U_20 value="0x0" />
+                <NAME value="ZG2" />
+                <STR_28 value="ZG2_001_Hair_scd, ZG2_001_Hair_scd, ZG2_001_Hair_scd, NULL, b_C_Head, ZG2_001_Hair" />
+            </PhysicsObject>
+        </Part>
+        <Part idx="6">
+            <!--Bust-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="7">
+            <!--Pants-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="8">
+            <!--Rist-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="9">
+            <!--Boots-->
+            <!--This entry is empty.-->
+        </Part>
+    </PartSet>
+    <PartSet idx="101">
+        <Part idx="0">
+            <!--Face_base-->
+            <MODEL value="1" />
+            <MODEL2 value="1" />
+            <TEXTURE value="2" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="1">
+            <!--Face_forehead-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="2">
+            <!--Face_eye-->
+            <MODEL value="1" />
+            <MODEL2 value="1" />
+            <TEXTURE value="2" />
+            <U_10 value="0x1" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.600000024" />
+            <F_28 value="0.699999988" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="3">
+            <!--Face_nose-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="4">
+            <!--Face_ear-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="5">
+            <!--Hair-->
+            <MODEL value="65535" />
+            <MODEL2 value="65535" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+            <PhysicsObject>
+                <U_00 value="0xffff" />
+                <U_02 value="0xffff" />
+                <U_04 value="0x0" />
+                <U_18 value="0x2" />
+                <U_1C value="0x0" />
+                <U_20 value="0x0" />
+                <NAME value="ZG2" />
+                <STR_28 value="ZG2_002_Hair_scd, ZG2_002_Hair_scd, ZG2_002_Hair_scd, NULL, b_C_Head, ZG2_002_Hair" />
+            </PhysicsObject>
+        </Part>
+        <Part idx="6">
+            <!--Bust-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="7">
+            <!--Pants-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="8">
+            <!--Rist-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="9">
+            <!--Boots-->
+            <!--This entry is empty.-->
+        </Part>
+    </PartSet>
+    <PartSet idx="102">
+        <Part idx="0">
+            <!--Face_base-->
+            <MODEL value="3" />
+            <MODEL2 value="3" />
+            <TEXTURE value="2" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="1">
+            <!--Face_forehead-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="2">
+            <!--Face_eye-->
+            <MODEL value="3" />
+            <MODEL2 value="3" />
+            <TEXTURE value="2" />
+            <U_10 value="0x1" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="2.0" />
+            <F_28 value="2.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="3">
+            <!--Face_nose-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="4">
+            <!--Face_ear-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="5">
+            <!--Hair-->
+            <MODEL value="65535" />
+            <MODEL2 value="65535" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+            <PhysicsObject>
+                <U_00 value="0xffff" />
+                <U_02 value="0xffff" />
+                <U_04 value="0x0" />
+                <U_18 value="0x2" />
+                <U_1C value="0x0" />
+                <U_20 value="0x0" />
+                <NAME value="ZG2" />
+                <STR_28 value="ZG2_003_Hair_scd, ZG2_003_Hair_scd, ZG2_003_Hair_scd, NULL, b_C_Chest, ZG2_003_Hair" />
+            </PhysicsObject>
+        </Part>
+        <Part idx="6">
+            <!--Bust-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="7">
+            <!--Pants-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="8">
+            <!--Rist-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="9">
+            <!--Boots-->
+            <!--This entry is empty.-->
+        </Part>
+    </PartSet>
+    <PartSet idx="103">
+        <Part idx="0">
+            <!--Face_base-->
+            <MODEL value="8" />
+            <MODEL2 value="8" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="1">
+            <!--Face_forehead-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="2">
+            <!--Face_eye-->
+            <MODEL value="8" />
+            <MODEL2 value="8" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.800000012" />
+            <F_28 value="0.699999988" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="3">
+            <!--Face_nose-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="4">
+            <!--Face_ear-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="5">
+            <!--Hair-->
+            <MODEL value="65535" />
+            <MODEL2 value="65535" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+            <PhysicsObject>
+                <U_00 value="0xffff" />
+                <U_02 value="0xffff" />
+                <U_04 value="0x0" />
+                <U_18 value="0x0" />
+                <U_1C value="0x0" />
+                <U_20 value="0x0" />
+                <NAME value="ZG2" />
+                <STR_28 value="ZG2_008_hair_SCD, ZG2_008_hair_SCD, ZG2_008_hair_SCD, NULL, b_C_Head, ZG2_008_hair" />
+            </PhysicsObject>
+        </Part>
+        <Part idx="6">
+            <!--Bust-->
+            <MODEL value="8" />
+            <MODEL2 value="8" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+            <PhysicsObject>
+                <U_00 value="0xffff" />
+                <U_02 value="0xffff" />
+                <U_04 value="0x0" />
+                <U_18 value="0x0" />
+                <U_1C value="0x0" />
+                <U_20 value="0x0" />
+                <NAME value="ZG2" />
+                <STR_28 value="ZG2_008_obi_scd, ZG2_008_Bust, ZG2_008_Bust, NULL, b_C_Pelvis, ZG2_008_obi" />
+            </PhysicsObject>
+        </Part>
+        <Part idx="7">
+            <!--Pants-->
+            <MODEL value="8" />
+            <MODEL2 value="8" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="8">
+            <!--Rist-->
+            <MODEL value="8" />
+            <MODEL2 value="8" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="9">
+            <!--Boots-->
+            <MODEL value="8" />
+            <MODEL2 value="8" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+    </PartSet>
+    <PartSet idx="104">
+        <Part idx="0">
+            <!--Face_base-->
+            <MODEL value="10" />
+            <MODEL2 value="10" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="1">
+            <!--Face_forehead-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="2">
+            <!--Face_eye-->
+            <MODEL value="10" />
+            <MODEL2 value="10" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.800000012" />
+            <F_28 value="0.699999988" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="3">
+            <!--Face_nose-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="4">
+            <!--Face_ear-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="5">
+            <!--Hair-->
+            <MODEL value="65535" />
+            <MODEL2 value="65535" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+            <PhysicsObject>
+                <U_00 value="0xffff" />
+                <U_02 value="0xffff" />
+                <U_04 value="0x0" />
+                <U_18 value="0x0" />
+                <U_1C value="0x0" />
+                <U_20 value="0x0" />
+                <NAME value="ZG2" />
+                <STR_28 value="ZG2_010_hair_scd, ZG2_010_hair_scd, ZG2_010_hair_scd, NULL, b_C_Head, ZG2_010_hair" />
+            </PhysicsObject>
+        </Part>
+        <Part idx="6">
+            <!--Bust-->
+            <MODEL value="10" />
+            <MODEL2 value="10" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+            <PhysicsObject>
+                <U_00 value="0xffff" />
+                <U_02 value="0xffff" />
+                <U_04 value="0x0" />
+                <U_18 value="0x0" />
+                <U_1C value="0x0" />
+                <U_20 value="0x0" />
+                <NAME value="ZG2" />
+                <STR_28 value="ZG2_010_obi_scd, ZG2_010_Bust, ZG2_010_Bust, NULL, b_C_Pelvis, ZG2_010_obi" />
+            </PhysicsObject>
+        </Part>
+        <Part idx="7">
+            <!--Pants-->
+            <MODEL value="10" />
+            <MODEL2 value="10" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="8">
+            <!--Rist-->
+            <MODEL value="10" />
+            <MODEL2 value="10" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="9">
+            <!--Boots-->
+            <MODEL value="10" />
+            <MODEL2 value="10" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+    </PartSet>
+    <PartSet idx="105">
+        <Part idx="0">
+            <!--Face_base-->
+            <MODEL value="15" />
+            <MODEL2 value="15" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="1">
+            <!--Face_forehead-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="2">
+            <!--Face_eye-->
+            <MODEL value="15" />
+            <MODEL2 value="15" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.800000012" />
+            <F_28 value="0.699999988" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="3">
+            <!--Face_nose-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="4">
+            <!--Face_ear-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="5">
+            <!--Hair-->
+            <MODEL value="65535" />
+            <MODEL2 value="65535" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+            <PhysicsObject>
+                <U_00 value="0xffff" />
+                <U_02 value="0xffff" />
+                <U_04 value="0x0" />
+                <U_18 value="0x0" />
+                <U_1C value="0x0" />
+                <U_20 value="0x0" />
+                <NAME value="ZG2" />
+                <STR_28 value="ZG2_015_hair_scd, ZG2_015_hair_scd, ZG2_015_hair_scd, NULL, b_C_Head, ZG2_015_hair" />
+            </PhysicsObject>
+        </Part>
+        <Part idx="6">
+            <!--Bust-->
+            <MODEL value="20" />
+            <MODEL2 value="20" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+            <PhysicsObject>
+                <U_00 value="0xffff" />
+                <U_02 value="0xffff" />
+                <U_04 value="0x0" />
+                <U_18 value="0x0" />
+                <U_1C value="0x0" />
+                <U_20 value="0x0" />
+                <NAME value="ZG2" />
+                <STR_28 value="ZG2_020_obi_scd, ZG2_020_Bust, ZG2_020_Bust, NULL, b_C_Pelvis, ZG2_020_obi" />
+            </PhysicsObject>
+        </Part>
+        <Part idx="7">
+            <!--Pants-->
+            <MODEL value="20" />
+            <MODEL2 value="20" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="8">
+            <!--Rist-->
+            <MODEL value="20" />
+            <MODEL2 value="20" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="9">
+            <!--Boots-->
+            <MODEL value="20" />
+            <MODEL2 value="20" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+    </PartSet>
+    <PartSet idx="106">
+        <Part idx="0">
+            <!--Face_base-->
+            <MODEL value="20" />
+            <MODEL2 value="20" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="1">
+            <!--Face_forehead-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="2">
+            <!--Face_eye-->
+            <MODEL value="20" />
+            <MODEL2 value="20" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.800000012" />
+            <F_28 value="0.699999988" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="3">
+            <!--Face_nose-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="4">
+            <!--Face_ear-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="5">
+            <!--Hair-->
+            <MODEL value="65535" />
+            <MODEL2 value="65535" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+            <PhysicsObject>
+                <U_00 value="0xffff" />
+                <U_02 value="0xffff" />
+                <U_04 value="0x0" />
+                <U_18 value="0x0" />
+                <U_1C value="0x0" />
+                <U_20 value="0x0" />
+                <NAME value="ZG2" />
+                <STR_28 value="ZG2_020_hair_scd, ZG2_020_hair_scd, ZG2_020_hair_scd, NULL, b_C_Head, ZG2_020_hair" />
+            </PhysicsObject>
+        </Part>
+        <Part idx="6">
+            <!--Bust-->
+            <MODEL value="20" />
+            <MODEL2 value="20" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+            <PhysicsObject>
+                <U_00 value="0xffff" />
+                <U_02 value="0xffff" />
+                <U_04 value="0x0" />
+                <U_18 value="0x0" />
+                <U_1C value="0x0" />
+                <U_20 value="0x0" />
+                <NAME value="ZG2" />
+                <STR_28 value="ZG2_020_obi_scd, ZG2_020_Bust, ZG2_020_Bust, NULL, b_C_Pelvis, ZG2_020_obi" />
+            </PhysicsObject>
+        </Part>
+        <Part idx="7">
+            <!--Pants-->
+            <MODEL value="20" />
+            <MODEL2 value="20" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="8">
+            <!--Rist-->
+            <MODEL value="20" />
+            <MODEL2 value="20" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="9">
+            <!--Boots-->
+            <MODEL value="20" />
+            <MODEL2 value="20" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+    </PartSet>
+    <PartSet idx="107">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="108">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="109">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="110">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="111">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="112">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="113">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="114">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="115">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="116">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="117">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="118">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="119">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="120">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="121">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="122">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="123">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="124">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="125">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="126">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="127">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="128">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="129">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="130">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="131">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="132">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="133">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="134">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="135">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="136">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="137">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="138">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="139">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="140">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="141">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="142">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="143">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="144">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="145">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="146">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="147">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="148">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="149">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="150">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="151">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="152">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="153">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="154">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="155">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="156">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="157">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="158">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="159">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="160">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="161">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="162">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="163">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="164">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="165">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="166">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="167">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="168">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="169">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="170">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="171">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="172">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="173">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="174">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="175">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="176">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="177">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="178">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="179">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="180">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="181">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="182">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="183">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="184">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="185">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="186">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="187">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="188">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="189">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="190">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="191">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="192">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="193">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="194">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="195">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="196">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="197">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="198">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="199">
+        <!--This entry is empty.-->
+    </PartSet>
+    <PartSet idx="200">
+        <Part idx="0">
+            <!--Face_base-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="1">
+            <!--Face_forehead-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="2">
+            <!--Face_eye-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="3">
+            <!--Face_nose-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="4">
+            <!--Face_ear-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="5">
+            <!--Hair-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="6">
+            <!--Bust-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="7">
+            <!--Pants-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="8">
+            <!--Rist-->
+            <MODEL value="32" />
+            <MODEL2 value="32" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="ZG2" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="9">
+            <!--Boots-->
+            <!--This entry is empty.-->
+        </Part>
+    </PartSet>
+    <SkeletonData idx="0">
+        <!--This entry is empty.-->
+    </SkeletonData>
+</BCS>

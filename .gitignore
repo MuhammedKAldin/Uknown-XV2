@@ -1,0 +1,5 @@
+###
+# Ignoring folders and files
+###
+[Cc]pk
+_CommonRedist

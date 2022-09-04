@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<BCS has_signature="true">
+    <U_2C value="0x2" />
+    <F_30 value="1.20500004, 1.19342995, 0.724120021, 2.5, 0.649999976, 1.25, 0.0" />
+    <PartSet idx="0">
+        <Part idx="0">
+            <!--Face_base-->
+            <MODEL value="0" />
+            <MODEL2 value="0" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="1">
+            <!--Face_forehead-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="2">
+            <!--Face_eye-->
+            <MODEL value="0" />
+            <MODEL2 value="0" />
+            <TEXTURE value="0" />
+            <U_10 value="0x1" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="1.60000002" />
+            <F_28 value="2.20000005" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="3">
+            <!--Face_nose-->
+            <MODEL value="0" />
+            <MODEL2 value="0" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+            <PhysicsObject>
+                <U_00 value="0xffff" />
+                <U_02 value="0xffff" />
+                <U_04 value="0x0" />
+                <U_18 value="0x1" />
+                <U_1C value="0x0" />
+                <U_20 value="0x0" />
+                <NAME value="SH0" />
+                <STR_28 value="SH0_000_mant_scd, NULL, SH0_000_Face_nose, NULL, b_C_Chest, SH0_000_mant" />
+            </PhysicsObject>
+        </Part>
+        <Part idx="4">
+            <!--Face_ear-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="5">
+            <!--Hair-->
+            <MODEL value="0" />
+            <MODEL2 value="0" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="6">
+            <!--Bust-->
+            <MODEL value="0" />
+            <MODEL2 value="0" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="7">
+            <!--Pants-->
+            <MODEL value="0" />
+            <MODEL2 value="0" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="8">
+            <!--Rist-->
+            <MODEL value="0" />
+            <MODEL2 value="0" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="9">
+            <!--Boots-->
+            <MODEL value="0" />
+            <MODEL2 value="0" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+    </PartSet>
+    <PartSet idx="1">
+        <Part idx="0">
+            <!--Face_base-->
+            <MODEL value="1" />
+            <MODEL2 value="1" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="1">
+            <!--Face_forehead-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="2">
+            <!--Face_eye-->
+            <MODEL value="0" />
+            <MODEL2 value="0" />
+            <TEXTURE value="0" />
+            <U_10 value="0x1" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="1.60000002" />
+            <F_28 value="2.20000005" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="3">
+            <!--Face_nose-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="4">
+            <!--Face_ear-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="5">
+            <!--Hair-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="6">
+            <!--Bust-->
+            <MODEL value="0" />
+            <MODEL2 value="0" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="7">
+            <!--Pants-->
+            <MODEL value="0" />
+            <MODEL2 value="0" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="8">
+            <!--Rist-->
+            <MODEL value="0" />
+            <MODEL2 value="0" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="9">
+            <!--Boots-->
+            <MODEL value="0" />
+            <MODEL2 value="0" />
+            <TEXTURE value="0" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+    </PartSet>
+    <PartSet idx="100">
+        <Part idx="0">
+            <!--Face_base-->
+            <MODEL value="1" />
+            <MODEL2 value="1" />
+            <TEXTURE value="2" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="1">
+            <!--Face_forehead-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="2">
+            <!--Face_eye-->
+            <MODEL value="0" />
+            <MODEL2 value="0" />
+            <TEXTURE value="2" />
+            <U_10 value="0x1" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="1.60000002" />
+            <F_28 value="2.20000005" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="3">
+            <!--Face_nose-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="4">
+            <!--Face_ear-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="5">
+            <!--Hair-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="6">
+            <!--Bust-->
+            <MODEL value="2" />
+            <MODEL2 value="2" />
+            <TEXTURE value="2" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="7">
+            <!--Pants-->
+            <MODEL value="0" />
+            <MODEL2 value="0" />
+            <TEXTURE value="2" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="8">
+            <!--Rist-->
+            <MODEL value="2" />
+            <MODEL2 value="2" />
+            <TEXTURE value="2" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="9">
+            <!--Boots-->
+            <MODEL value="2" />
+            <MODEL2 value="2" />
+            <TEXTURE value="2" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+    </PartSet>
+    <PartSet idx="101">
+        <Part idx="0">
+            <!--Face_base-->
+            <MODEL value="3" />
+            <MODEL2 value="3" />
+            <TEXTURE value="2" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, SH0.ORG.fce" />
+        </Part>
+        <Part idx="1">
+            <!--Face_forehead-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="2">
+            <!--Face_eye-->
+            <MODEL value="3" />
+            <MODEL2 value="3" />
+            <TEXTURE value="2" />
+            <U_10 value="0x1" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="1.60000002" />
+            <F_28 value="2.20000005" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="3">
+            <!--Face_nose-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="4">
+            <!--Face_ear-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="5">
+            <!--Hair-->
+            <!--This entry is empty.-->
+        </Part>
+        <Part idx="6">
+            <!--Bust-->
+            <MODEL value="3" />
+            <MODEL2 value="3" />
+            <TEXTURE value="2" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="7">
+            <!--Pants-->
+            <MODEL value="3" />
+            <MODEL2 value="3" />
+            <TEXTURE value="2" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="8">
+            <!--Rist-->
+            <MODEL value="3" />
+            <MODEL2 value="3" />
+            <TEXTURE value="2" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+        <Part idx="9">
+            <!--Boots-->
+            <MODEL value="3" />
+            <MODEL2 value="3" />
+            <TEXTURE value="2" />
+            <U_10 value="0x0" />
+            <U_18 value="0x0" />
+            <U_1C value="0x0" />
+            <U_20 value="0x0" />
+            <F_24 value="0.0" />
+            <F_28 value="0.0" />
+            <U_2C value="0x0" />
+            <U_30 value="0x0" />
+            <NAME value="SH0" />
+            <!--MODEL, EMM, EMB, EAN-->
+            <FILES value="NULL, NULL, NULL, NULL" />
+        </Part>
+    </PartSet>
+    <Body idx="0">
+        <BoneScale>
+            <SCALE value="1.24999998, 1.18000004, 1.24999998" />
+            <NAME value="b_C_Base" />
+        </BoneScale>
+    </Body>
+    <Body idx="1">
+        <BoneScale>
+            <SCALE value="1.14999998, 1.08000004, 1.14999998" />
+            <NAME value="b_C_Base" />
+        </BoneScale>
+        <BoneScale>
+            <SCALE value="1.00999999, 1.00999999, 1.00999999" />
+            <NAME value="b_R_ArmHelper" />
+        </BoneScale>
+        <BoneScale>
+            <SCALE value="1.00999999, 1.00999999, 1.00999999" />
+            <NAME value="b_L_ArmHelper" />
+        </BoneScale>
+        <BoneScale>
+            <SCALE value="1.0, 0.970000029, 1.0" />
+            <NAME value="b_C_Neck1" />
+        </BoneScale>
+        <BoneScale>
+            <SCALE value="0.939999998, 1.07000005, 1.07000005" />
+            <NAME value="b_R_Arm1" />
+        </BoneScale>
+        <BoneScale>
+            <SCALE value="0.939999998, 1.07000005, 1.07000005" />
+            <NAME value="b_L_Arm1" />
+        </BoneScale>
+        <BoneScale>
+            <SCALE value="1.01999998, 1.0, 1.01999998" />
+            <NAME value="b_R_Leg1" />
+        </BoneScale>
+        <BoneScale>
+            <SCALE value="1.01999998, 1.0, 1.01999998" />
+            <NAME value="b_L_Leg1" />
+        </BoneScale>
+        <BoneScale>
+            <SCALE value="0.980000019, 1.0, 0.980000019" />
+            <NAME value="b_C_Head" />
+        </BoneScale>
+    </Body>
+    <Body idx="2">
+        <BoneScale>
+            <SCALE value="6.25, 6.25, 6.25" />
+            <NAME value="b_C_Base" />
+        </BoneScale>
+    </Body>
+    <SkeletonData idx="0">
+        <U_00 value="0x0" />
+        <Bone name="b_C_Chest">
+            <U_00 value="0x12" />
+            <U_04 value="0x0" />
+            <U_08 value="0x0" />
+            <!--Following values are half-floats. They will be changed into floats values in a future revision-->
+            <U_0C value="0x0, 0x0, 0x999a, 0x3e19, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0xcccd, 0x3ecc, 0x999a, 0x3e99, 0x7ae1, 0x3e94" />
+        </Bone>
+        <Bone name="b_R_Leg2">
+            <U_00 value="0x12" />
+            <U_04 value="0x0" />
+            <U_08 value="0x0" />
+            <!--Following values are half-floats. They will be changed into floats values in a future revision-->
+            <U_0C value="0x0, 0x0, 0x999a, 0xbe99, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x999a, 0x3e19, 0x0, 0x3f00, 0x999a, 0x3e19" />
+        </Bone>
+        <Bone name="b_L_Leg2">
+            <U_00 value="0x12" />
+            <U_04 value="0x0" />
+            <U_08 value="0x0" />
+            <!--Following values are half-floats. They will be changed into floats values in a future revision-->
+            <U_0C value="0x0, 0x0, 0x999a, 0xbe99, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x999a, 0x3e19, 0x0, 0x3f00, 0x999a, 0x3e19" />
+        </Bone>
+        <Bone name="b_C_Head">
+            <U_00 value="0x12" />
+            <U_04 value="0x1" />
+            <U_08 value="0x0" />
+            <!--Following values are half-floats. They will be changed into floats values in a future revision-->
+            <U_0C value="0x0, 0x0, 0xcccd, 0x3dcc, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x147b, 0x3e2e, 0x0, 0x0, 0x0, 0x0" />
+        </Bone>
+        <Bone name="b_R_Leg1">
+            <U_00 value="0x12" />
+            <U_04 value="0x0" />
+            <U_08 value="0x0" />
+            <!--Following values are half-floats. They will be changed into floats values in a future revision-->
+            <U_0C value="0x0, 0x0, 0xcccd, 0xbe4c, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x999a, 0x3e19, 0x0, 0x3f00, 0x999a, 0x3e19" />
+        </Bone>
+        <Bone name="b_L_Leg1">
+            <U_00 value="0x12" />
+            <U_04 value="0x0" />
+            <U_08 value="0x0" />
+            <!--Following values are half-floats. They will be changed into floats values in a future revision-->
+            <U_0C value="0x0, 0x0, 0xcccd, 0xbe4c, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x999a, 0x3e19, 0x0, 0x3f00, 0x999a, 0x3e19" />
+        </Bone>
+        <Bone name="b_C_Pelvis">
+            <U_00 value="0x12" />
+            <U_04 value="0x0" />
+            <U_08 value="0x0" />
+            <!--Following values are half-floats. They will be changed into floats values in a future revision-->
+            <U_0C value="0x0, 0x0, 0xcccd, 0x3dcc, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x999a, 0x3e99, 0xa3d, 0x3e57, 0xc28f, 0x3e75" />
+        </Bone>
+        <Bone name="b_C_Spine1">
+            <U_00 value="0x12" />
+            <U_04 value="0x0" />
+            <U_08 value="0x0" />
+            <!--Following values are half-floats. They will be changed into floats values in a future revision-->
+            <U_0C value="0x0, 0x0, 0xcccd, 0x3dcc, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x999a, 0x3e99, 0xcccd, 0x3e4c, 0xc28f, 0x3e75" />
+        </Bone>
+    </SkeletonData>
+</BCS>

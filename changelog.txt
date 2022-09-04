@@ -1,0 +1,251 @@
+-3.8
+- Fixed compatibility with game version 1.18, which is now the only supported version.
+- Added a patch to disable "controller disabled" message, so that the CPU vs CPU hack can work again. 
+  Note: this patch is NOT enabled by default, to enable set "stop_controller_not_connected = true " in the Patches section of the .ini.
+- Possible fix for the patcher not running under Wine and derivatives  (untested, and will still require dll override)
+
+-3.711
+- Removed a debug message of 3.71 that was bombing the log file in selection screen. 
+
+- 3.71
+- Fixed compatibility with game version 1.17.02, which is now the only supported version.
+
+- 3.7
+- Fixed compatibility with game version 1.17.01, which is now the only supported version.
+
+3.62
+- Fixed compatibility with game version 1.16.01, which is now the only supported version.
+
+3.61
+- Fixed a bug in character selection screen.
+
+3.6
+- Added compatibility with game version 1.16, which is now the only supported version.
+
+3.52
+- Fixed the single patch that broke with 1.15.01 update. The signature of the patch has been improved and is now compatible with both 1.15 and 1.15.01 (so, this version of the patcher is compatible with both versions of the game)
+
+3.51
+- Bugfix: the patch to set the body shape wasn't working properly on the DLL side.
+
+3.5
+- Added compatibility with game version 1.15, which is now the only supported version.
+- Bugfix: Uub and Android 21 were getting auto-generated portraits instead of the normal ones because the patcher thought they were cacs.
+- Bugfix: for same reasons as above, Uub and Android 21 were being detected as cacs by the patcher condition "XV2P_IsAvatar" that modded quests can use.
+- Improvement of some patches signatures and the patch engine can now handle patches that have several matches. For the user this means that the patcher could survive small/minor updates (but it is not guaranteed).
+
+3.402
+- Compatibility with game version 1.14.01 "V2". BEWARE: Not longer compatible with the previous 1.14.01.
+
+3.401
+- Compatibility with game version 1.14.01. BEWARE: Not longer compatible with 1.14.
+
+3.4
+- Added support for stages to set a limit different than the default 500.0. x2m stages can set this value with stage editor.
+  This makes stages like Conton City, etc, fully playable (once they are updated to use proper values), without characters getting stuck.
+
+3.3
+- Added compatibility with game version 1.14, which is now the only supported version.
+- UI Extensions updated to match new POPUP_PAUSE.iggy.
+
+3.2
+- Added compatibility with game version 1.13v2, which is now the only supported version.
+
+3.1
+- Added compatibility with game version 1.12, which is now the only supported version.
+
+3.0
+- Added compatibility with game version 1.11, which is now the only supported version.
+
+2.9
+- Added compatibility with game version 1.10v4, which is now the only supported version.
+  Please, note that the game still refers to this update as "1.10.02".
+
+2.8
+- Added compatibility with game version 1.10v3, which is now the only supported version.
+  Please, note that the game refers to this update as "1.10.02" (albeit they forgot to update the exe version, which remains as 1.10.0.0), so this can cause a bit of confusion.
+
+2.7
+- Bugfix: Characters that made use of BcsColorSelector for some parts, but not for all parts, could have got random colors in the parts without BcsColorSelector, 
+  despite they were supossed to have a fixed color. 
+- Forgot to comment a debug message. Log won't longer have the cryptic messages about "Apply Cacs Mats".
+
+2.6
+- Added support for game version 1.10v2, which is actually the smaller version needed for the patcher to run. 
+  Please notice that the patcher doesn't support the first version of 1.10 ("1.10v1").
+- Because some code changes in the game made pseudo-cacs (cac2x2m and cycit chars) to lose their colors, the patcher now handles the colors of these chars, by
+  reading data from pre-baked.xml, which is written automatically by the Xv2 Mods Installer.
+- Mods chars in slot 160 and higher won't longer appear with a permanent "new icon" star, they will now appear permanently without it.
+
+2.5
+- Added a patch to allow new HLQ quests (expert missions) to appear in the global orb even if they are not completed.
+  The patch is controlled by the ini setting "mod_hlq_always_in_global_orb" and is default to true because it only affect quests added by mods.
+- The take control functionality won't longer show chars that have not yet been loaded in a quest, or unused/hidden chars that are supossed to not appear at all. 
+
+2.4
+- Reworked how the UI extensions work (requires UI extension update).
+  Each functionality of the pause menu can now be toggled in the .ini, so that you can customize the pause menu with only the options you want.
+- "dump_auto_gen_portrait" ini setting is back, but with different meaning to before. Now, it just enables the dump auto portrait functionality in the UI extensions.
+  The default value has been set to true to match previous version functionality (it requrires the updated UI extensions, without it, this won't do anything)
+- The option to dump auto generated portrait won't longer appear disabled when there is no auto generated portrait detected, instead the option will just not appear in those cases.
+- The meaning of the "hide_battle_ui" ini setting has changed. It won't longer hide the UI, but enable the toggle battle UI functionality in the UI extensions.
+  The default value has been set to true to match previous version functionality (it requrires the updated UI extensions, without it, this won't do anything)
+- Added a patch that allows custom characters to respond to any dual skill request like cacs character do. This patch is part of the pre-baked patches, and is automatically enabled for x2m that use this functionality.
+- The patch to allow skill mods to set bcs hair colors has been extended to eyes color (this patch is enabled for mods that use that feature).
+- The patch to allow choosing allies in expert missions has been improved and now you can select all 5 allies. If for whatever reason, you want to use the old patch that allows only 2 allies, take a look at "[MULTISELECT_EXPERT]" ini section.
+- Added a patch that allows to take control of cpu allies. This patch is disabled by default. To enable, use "take_ally_control = true" and also update the UI extensions.
+ (the pause menu will have the options to take control of any cpu ally in current battle). 
+Current limitations: although the functionality works in quests, it will be disabled whenever there is an opened stage gate in current mission (it is fine while it is closed), due to technical reasons.
+In expert missions, if the cpu ally you are controlling is brainwashed, weirdness can happen, like you suddenly being an ally of the boss...
+
+2.3
+- Bugfix: one of the debug patches wasn't updated to 1.09.01, what caused patcher not to start if "debug = true". 
+- [UI Extensions]: now the pause menu modifications will appear in some battles where it didn't appear (such as main quest), and it won't longer appear in the Hero Colisseum.
+  Don't forget to update the ui extensions for this change to apply!
+- Added a patch that allow the game to load ttc dialogue files (subs and audio) of another char. 
+  This patch is part of the pre-baked patches, and is automatically used by x2m character mods that use the TTC tab in the simple mode.
+- Added a patch to be able to choose allies in expert missions. This patch is disabled by default. It can be enabled with "enable_multiselect_expert = true".
+  Note: at the moment you can only choose two of the five allies. This patch may be improved in the future to be able to choose the five of them.
+
+2.2
+- Added support for game version 1.09.01, which is actually the smaller version needed for the patcher to run.
+- Added a patch that allows transformation skills to remove or not remove hair accessories. This is part of the prebaked patches, and is available to x2m skills in the skill creator.
+- Added a patch that allows the character to remain transformed in cutscenes. This patch is disabled by default. 
+  Set "dont_untransform_cut_scenes = true" in the Patches section of the ini to enable it. Use the section "UNTRANSFORM_CUT_SCENES" for further settings.
+- Bugfix: The patch to remove limit of clothes description had a bug in which it could return the description of another item (only affected items that went beyond the game description limit)
+
+2.1
+- Added support to allow custom transformation skills to use a bcs hair color, like original SSJ Blue does.
+- Added a patch that removes the limit of clothes description the systems can support. This fixes the problems of some custom costumes description appearing as "Unknown Item Information" when you install too many costume mods.
+  Atm the patch is only done for top, bottom, gloves and shoes, and only for item description, but in the future, it may be extended to accessories and other item types and also for item names, if needed.
+
+2.0
+- Added support for game version 1.09, which is actually the smaller version needed for the patcher to run.
+- Added support for new stages.
+- Added a patch to enable cpu enemies (AI) to use awaken skills. This patch is disabled by default. You can enable it with the ini setting "ai_extend". Additional parameters can be configured in the AIextend section.
+- Added a patch to show the enemy portrait in any battle, not just few enemies like in vanilla game. This patch is disabled by default.
+  You can enable it with the ini setting "ui_enemy_portrait".
+- Added a patch that allows to hide the battle UI. Disabled by default, you can use the "hide_battle_ui" ini setting to enable or you can just use the XV2Patcher UI extensions.
+- Added a patch to allow Freezer siege events to happen offline. This patch is disabled by default. You can enable by setting ini variable "fs_event_offline = true".
+  Note that the patch also requires "offline_mode = true". The FS_OFFLINE section allows you to customize the probability, duration and other parameters of the event.
+- Added the XV2Patcher UI extensions. This is the folder "[Optional] XV2Patcher UI Extensions". These are extension to some iggy files like pause menu. 
+  Read the readme there for more details. (Current functions: being able to dump autogen portrait in the pause menu, and toggle the battle hud).
+- The ini setting "dump_auto_gen_portrait" has been removed. With the XV2Patcher UI extensions, the same functionality can be achieved in a more stable way.
+- The dumping of auto-generated portrait will now dump to "[character name].bmp" instead of portrait.bmp.
+- pre-baked.xml file now have a new field called "BEHAVIOUR_66", which allow skills to be identified as one of the original ones, regarding to the value of CUS_AURA in bcm files.
+- If iggy_warning ini setting is true, the message "Cannot maintain framerate specified in SWF file" won't longer be shown in log, as it is a expected and normal warning, to avoid cluttering.
+
+1.5
+- There was a critical bug in the function that fixed pseudo-cac colors, where a 64bits pointer was downcast to a 32 bits variable, could have caused inestability.
+  The way the compiler compiled the function may have helped in the bug being less critical than expected.
+- Bugfix: Pseudo-cacs auto-generated portraits *when transformed* had the default colors of their race.
+
+1.4
+- The patcher now has the ability to load a file with slots information at "data/XV2P_SLOTS.x2s" and provide it to a CHARASELE.iggy that makes use of the XV2PATCHER AS3 external interface.
+- The title screen will now show the patcher version next to the game version.
+
+1.3 
+- Added support for game version 1.08, which is actually the smaller version needed for the patcher to run.
+- If auto is set in CharacterMax, the patcher won't allow an old iggy (pre 1.08) to load (they cannot work with this version of the game anyway)
+- Bugfix: One of the NewChara patches has been erroneous for several versions. Seems to not have had any effect, but better fixing it.
+- The 64KB PSC limit patch is now disabled because Dimps has officially fixed the limitation.
+- A patch has been added to fix a problem introduced in 1.08 that causes pseudo cacs (cac2x2m mods) to be coloured with player colours instead of their bcs colours.
+  This patch is enabled if new_chara=true (default)
+- The pre-baked xml file now accepts value of up to 24 (0x18) instead of 21 in the skills behaviour params to match the exe update.
+- The "iggy_debug" ini setting has been renamed as "iggy_trace", and a new setting "iggy_warning" has been added, which prints errors and warnings from iggy subsystem.
+- A setting to print exceptions info in the log file has been added in the ini (disabled by default)
+- A patch has been added to increase the number of objects that the UI can allocate (fixes crashes with too many char slots). This patch is enabled by default and can be controlled with the "gdraw_limits_patch" ini setting.
+
+1.2
+- Added support for game version 1.07, which is actually the smaller version needed for the patcher to run.
+- If auto is set in CharacterMax, the patcher won't allow an old iggy (pre 1.07) to load.
+
+1.1
+- Added support for game version 1.06, which is actually the smaller version needed for the patcher to run.
+- If auto is set in CharacterMax, the patcher won't allow an old iggy (pre 1.06) to load.
+
+1.00
+- Added support for game version 1.05, which is actually the smaller version needed for the patcher to run.
+- If auto is set in CharacterMax, the patcher won't allow an old iggy (pre 1.05) to load, since anyway those aren't compatible.
+
+0.92
+- Added a patch to allow custom transformation skills to use the charged attacks teleport (skill must be updated to use this feature)
+- Added "behaviour 13" to the skill transformation control (if it has the proper value, emb-based battle portraits will change; skill and char must be properly configured for this).
+
+0.91
+- Added "behaviour 10" to the skill transformation control (needed to fix the bug of "transform by default if bcs empty").
+- Added "integer 3" to the skill transformation control (if it has the proper value, auto battle portraits will be changed on transformation)
+
+0.9
+- Added patches to remove limit of 33 auras. (patches are done if new_chara is set to true)
+- Added patches to be able to add new "cus auras" (or skill transformation control, whatever). These entries go in data/pre-baked.xml (xv2 mods installer will do that for x2m skill mods). These set of patches is done if new_chara is set to true.
+
+0.85
+- Added an optional patch to set the timer for offline battles (disabled by default, see ini file to enable it)
+- Improved the quality (stability) of one of the battle portrait patches.
+
+0.82
+- Added an alternative dll for people with gamepad problems. BOTH DLL CANNOT COEXIST, IF YOU INSTALL DINPUT8, YOU MUST DELETE XINPUT1_3.DLL
+
+0.81
+- Fixed inestability in one of the patches introduced in 0.8.
+
+0.8
+- Added a patch to allow mods having a battle portrait auto-generated by the game, like the game does for CaCs. Mods using the x2m system can use this feature optionally.
+  The patch is part of the XV2Patcher character data extension (data/pre-baked.xml), and is only done if new_chara is set to true.
+
+- Added a tool to dump auto-generated battle portrait to disk (XV2PATCHER/portrait.bmp). This is disabled by default and should only be enabled temporally when using that functionality.
+
+0.75
+- Added a patch to allow mods to use a bcs body shape (<Body> in genser), just like CaCs character do. This functionality was added mainly for cac2x2m 0.2, but modders using the XV2 Chara Creator can also make use of it.
+  The patch is part of the XV2Patcher character data extension (data/pre-baked.xml), and is only done if new_chara is set to true.
+
+0.72
+- The way the dll was loaded was changed in 0.6 to fix a problem, but created another one. It now uses a dual aproach. This should fix people with controller problems since version 0.6.
+- If LoadLibrary fails loading the original xinput, it will output an error code that may help to debug the problem.
+
+0.71
+- If auto is set in CharacterMax, the patcher won't allow an old iggy (pre 1.04) to load, and it will abort game startup with an error.
+
+0.7
+- Compatibility with game version 1.04. The patcher is not longer compatible with previous versions of the game.
+- The bac/bcm patch isn't longer tied to the new_chara setting, but to a new one called bac_bcm (defaulted to true)
+
+0.6
+- The game had a protection that prevented bac/bcm files from being modded (protection didn't only affect the file contents, but also the path). This protection is turned off now by xv2patcher (only if new_chara is true, which is default now)
+- The CharacterMax variable can now be auto-detected (and it will be in default ini). You can read more about it in the ini file comments.
+- Added support to flag characters as Ozarus/Great Ape. This is done in a xml file (at data/pre-baked.xml), which is usually written by XV2 Mods Installer 0.4+. (this file may get expanded to more things in future). This patch is only done if "new_chara" is set to true.
+- Default configutation of xv2patcher has been changed. new_chara is now true by default.
+
+0.51
+- The loading of original dll is now delayed and not done in DllMain (this fixes some dll locks, people having a "Cannot load original dll" problem)
+- The dll didn't export xinput undocumented functions 100-103 (XInputGetStateEx, XInputWaitForGuideButton, XInputCancelGuideButtonWait, XInputPowerOffController). Now it does. The bug caused controller not to work on some systems.
+- There was a very small posibibility of one of the hooking methods to not work if the address to patch was too small or too high. This would have caused an invalid "Cannot apply patch" in some systems, even if the patch was found.
+
+0.5
+- Added a patch that removes a 16-bit limit in the Dimps PSC parser, which caused a crash if a top spec entry was added at some point after offset 0xFFFF (65535) of the file. (16 bits calculation overflow)
+  This patch will only be done if "new_chara" is set to true.
+- Added a patch to force offline in the game (this patch is disabled by default, use ini)
+- Added a patch to unlock all stages without save modifying (disabled by default, use ini)
+
+0.41
+- Fix: the unlock_chara_mods wasn't working with Mira Final Form.
+
+0.4
+- Iggy trace debug will now ignore lines with only a "\n" and nothing else, to avoid cluttering the log with empty lines.
+- Added a patch to allow to bypass the 99 slots limit of the game. This setting is disabled by default, and requires a matching iggy file. (read ini file)
+- Added a couple of settings to allow the unlock of all characters (only in code, saves not touched), or only the unlock of npc/mods characters.
+  By default, the unlock all characters is disabled, and the unlock of npc/mods is enabled.
+
+0.3 
+- Removed unneeded part of the loosefiles patch.
+- Added debug functions for iggy developers (disabled by  default, use ini)
+- If file "xinput_other.dll" exists in same directory that the patcher dll, the patcher will load that dll instead of loading the one from System32.
+  Maybe x360ce users can use that workaround to use the patcher.
+
+0.2
+- Added compatibility with some more files (in concrete with character potraits in battles)
+- the "log_loose_files" ini setting now works properly.
+
+0.1
+- Initial version

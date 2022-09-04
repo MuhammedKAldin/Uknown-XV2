@@ -1,0 +1,29 @@
+"InstallScript"
+{
+	"Run Process"
+	{
+		"easyanticheat"
+		{
+			"HasRunKey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\dbx2_EAC"
+			"Process 1"		"%INSTALLDIR%\\EasyAntiCheat\\EasyAntiCheat_Setup.exe"
+			"Command 1"		"install 132 -console"
+		}
+	}
+	"Run Process On Uninstall"
+	{
+		"easyanticheat"
+		{
+			"Process 1"		"%INSTALLDIR%\\EasyAntiCheat\\EasyAntiCheat_Setup.exe"
+			"Command 1"		"uninstall 132 -console"
+		}
+		"remove_eac"
+		{
+			"Process 1"		"rmdir"
+			"Command 1"		"/Q /S %INSTALLDIR%\\EasyAntiCheat"
+		}
+	}
+}
+"kvsignatures"
+{
+	"InstallScript"		"022e3ebeaf416a1b77d6d97a2947ebccb61c5062485a521204a2827da3ec16421e9553efea8ba4c7d6211ef68ee98d36e35891e614de3fd44d53459988681fdae137778ca5a7d538a5276dde227c5c5e5f09629dd0a0350a543b850d255ab2ce8813f75c8c6d7d0d71e77d6df9b489a29217fcc846a0a4e693e0d254ee5692fb"
+}

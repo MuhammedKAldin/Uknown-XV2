@@ -1,0 +1,8 @@
+The .dll here is only for people with gamepad problems.
+If you don't have gamepad problems or if you don't use a gamepad, you can leave this directory NOW.
+
+If you have gamepad problems, delete xinput1_3.dll from game bin directory, and use this dinput8.dll INSTEAD.
+Both dll can't coexist.
+
+
+JUST IN CASE IT IS NOT CLEAR, IF YOU INSTALL THIS DLL, YOU'll HAVE TO DELETE THE XINPUT1_3.DLL
