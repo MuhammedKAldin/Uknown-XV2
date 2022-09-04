@@ -143,7 +143,7 @@ Patch "LocateToggleBattleUIPatch" located at address 00007FF6D9DB031D. Relative:
 Patch "HookPopupPauseCtor" located at address 00007FF6DA1A1600. Relative: 0x571600.
 Patch "LocatePopupPauseBattleRA" located at address 00007FF6D9D80E46. Relative: 0x150e46.
 Patch "UnlockCharaMods" located at address 00007FF6DA12DBBC. Relative: 0x4fdbbc.
-20 files were removed in ram for cpk with toc_size=0x3964f0
+187 files were removed in ram for cpk with toc_size=0x3964f0
 4 files were removed in ram for cpk with toc_size=0x7a2b0
 159 files were removed in ram for cpk with toc_size=0x90a20
 0 files were removed in ram for cpk with toc_size=0x340
@@ -153,13 +153,3 @@ Patch "UnlockCharaMods" located at address 00007FF6DA12DBBC. Relative: 0x4fdbbc.
 0 files were removed in ram for cpk with toc_size=0xc8
 0 files were removed in ram for cpk with toc_size=0x1b0
 0 files were removed in ram for cpk with toc_size=0x178
-0 files were removed in ram for cpk with toc_size=0x310
-0 files were removed in ram for cpk with toc_size=0x100
-0 files were removed in ram for cpk with toc_size=0x26778
-0 files were removed in ram for cpk with toc_size=0x6778
-0 files were removed in ram for cpk with toc_size=0x100
-0 files were removed in ram for cpk with toc_size=0x158
-0 files were removed in ram for cpk with toc_size=0x198
-0 files were removed in ram for cpk with toc_size=0x198
-ChaselMainPatch: 17999 -> 38195
-ChaselMainPatch: 17999 -> 38195
