@@ -5,7 +5,7 @@
     <!--This is the list of additional ozarus to add to the game.-->
     <OZARUS value="" />
     <!--This is the list of characters that will have an auto battle portrait.-->
-    <AUTO_BTL_PORT value="0xa1, 0xa2, 0xa4, 0xa5, 0xa6" />
+    <AUTO_BTL_PORT value="0xa1, 0xa2, 0xa4, 0xa5, 0xa6, 0xa7" />
     <!--This is the list of body shapes to apply.-->
     <BodyShape cms_id="0xa0" body_shape="0" />
     <!--This is the data of cus auras.-->
