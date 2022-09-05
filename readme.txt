@@ -10,4 +10,4 @@ For example, the file data/sound/CAR_BGM.acb would go in "C:\Program Files (x86)
 - Run the game from the bin folder (bin/DBXV2.exe) to avoid "untrusted system file error".
   If you still get error problems caused by the Easy Anti Cheat rootkit, run DBXV2.exe as administrator.
 
-=======================
+==++++++==========
