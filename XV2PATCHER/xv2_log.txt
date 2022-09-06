@@ -1,151 +1,151 @@
-XV2PATCHER VERSION 3.8. Exe base = 00007FF7393F0000. My Dll base = 0000000065600000. My dll name: xinput1_3.dll
+XV2PATCHER VERSION 3.8. Exe base = 00007FF7EEEB0000. My Dll base = 0000000065600000. My dll name: xinput1_3.dll
 Running on game version 1.180
-Patch "RemoveAuraLimit1" located at address 00007FF7394D3A6B. Relative: 0xe3a6b.
-Patch "RemoveAuraLimit2" located at address 00007FF73970789B. Relative: 0x31789b.
-Patch "RemoveAuraLimit3" located at address 00007FF7397FCDD7. Relative: 0x40cdd7.
-Patch "LocateGetTextureBuffer" located at address 00007FF73956E286. Relative: 0x17e286.
-Patch "bac_bcm_check_remove" located at address 00007FF73966B909. Relative: 0x27b909.
-Patch "ModifyGDrawSetting2A" located at address 00007FF739A640AD. Relative: 0x6740ad.
+Patch "RemoveAuraLimit1" located at address 00007FF7EEF93A6B. Relative: 0xe3a6b.
+Patch "RemoveAuraLimit2" located at address 00007FF7EF1C789B. Relative: 0x31789b.
+Patch "RemoveAuraLimit3" located at address 00007FF7EF2BCDD7. Relative: 0x40cdd7.
+Patch "LocateGetTextureBuffer" located at address 00007FF7EF02E286. Relative: 0x17e286.
+Patch "bac_bcm_check_remove" located at address 00007FF7EF12B909. Relative: 0x27b909.
+Patch "ModifyGDrawSetting2A" located at address 00007FF7EF5240AD. Relative: 0x6740ad.
 GDraw setting 2A changed to 1536
-Patch "PatchExternalAS3Callback" located at address 00007FF739A65880. Relative: 0x675880.
-Patch "LoadTocHook" located at address 00007FF739CD2260. Relative: 0x8e2260.
-Patch "DisableSort" located at address 00007FF739CD0CE4. Relative: 0x8e0ce4.
-Patch "CpkGetFileInfoHook" located at address 00007FF73966BA7C. Relative: 0x27ba7c.
-Patch "CpkGetFileInfoHook2" located at address 00007FF73966B442. Relative: 0x27b442.
-Patch "PatchGameVersionString" located at address 00007FF739904E9C. Relative: 0x514e9c.
-Patch "UnlockCheck138" located at address 00007FF73964790C. Relative: 0x25790c.
-Patch "UnlimitedItemInfo" located at address 00007FF739963AD0. Relative: 0x573ad0.
-Patch "GetUnknownItemAddress" located at address 00007FF739963B29. Relative: 0x573b29.
-Patch "LocateGameLanguageVar_Item" located at address 00007FF73964C918. Relative: 0x25c918.
-Patch "LocateBattleCoreMainSystem_singleton" located at address 00007FF739AD5A35. Relative: 0x6e5a35.
-Patch "PatchMobDtor" located at address 00007FF739495990. Relative: 0xa5990.
-Patch "ChaselMainPatch" located at address 00007FF7398E8858. Relative: 0x4f8858.
+Patch "PatchExternalAS3Callback" located at address 00007FF7EF525880. Relative: 0x675880.
+Patch "LoadTocHook" located at address 00007FF7EF792260. Relative: 0x8e2260.
+Patch "DisableSort" located at address 00007FF7EF790CE4. Relative: 0x8e0ce4.
+Patch "CpkGetFileInfoHook" located at address 00007FF7EF12BA7C. Relative: 0x27ba7c.
+Patch "CpkGetFileInfoHook2" located at address 00007FF7EF12B442. Relative: 0x27b442.
+Patch "PatchGameVersionString" located at address 00007FF7EF3C4E9C. Relative: 0x514e9c.
+Patch "UnlockCheck138" located at address 00007FF7EF10790C. Relative: 0x25790c.
+Patch "UnlimitedItemInfo" located at address 00007FF7EF423AD0. Relative: 0x573ad0.
+Patch "GetUnknownItemAddress" located at address 00007FF7EF423B29. Relative: 0x573b29.
+Patch "LocateGameLanguageVar_Item" located at address 00007FF7EF10C918. Relative: 0x25c918.
+Patch "LocateBattleCoreMainSystem_singleton" located at address 00007FF7EF595A35. Relative: 0x6e5a35.
+Patch "PatchMobDtor" located at address 00007FF7EEF55990. Relative: 0xa5990.
+Patch "ChaselMainPatch" located at address 00007FF7EF3A8858. Relative: 0x4f8858.
 Auto character max has been estimated: 850
-Patch "PatchReceiveTypeInt" located at address 00007FF7398E9D34. Relative: 0x4f9d34.
-Patch "PatchReceiveTypeFlag" located at address 00007FF7398EC4A7. Relative: 0x4fc4a7.
-Patch "PatchReceiveTypeString" located at address 00007FF7398EDA48. Relative: 0x4fda48.
-Patch "PatchReceiveTypeUnlockVar" located at address 00007FF7398EDBD7. Relative: 0x4fdbd7.
-Patch "PatchReceiveTypeCharaSelected" located at address 00007FF7398EC4A7. Relative: 0x4fc4a7.
-Patch "NoNewStarIconInCharsAfter160" located at address 00007FF739B071E5. Relative: 0x7171e5.
-Patch "IncreaseChaselMemory" located at address 00007FF7397417E5. Relative: 0x3517e5.
+Patch "PatchReceiveTypeInt" located at address 00007FF7EF3A9D34. Relative: 0x4f9d34.
+Patch "PatchReceiveTypeFlag" located at address 00007FF7EF3AC4A7. Relative: 0x4fc4a7.
+Patch "PatchReceiveTypeString" located at address 00007FF7EF3ADA48. Relative: 0x4fda48.
+Patch "PatchReceiveTypeUnlockVar" located at address 00007FF7EF3ADBD7. Relative: 0x4fdbd7.
+Patch "PatchReceiveTypeCharaSelected" located at address 00007FF7EF3AC4A7. Relative: 0x4fc4a7.
+Patch "NoNewStarIconInCharsAfter160" located at address 00007FF7EF5C71E5. Relative: 0x7171e5.
+Patch "IncreaseChaselMemory" located at address 00007FF7EF2017E5. Relative: 0x3517e5.
 Chasel object memory succesfully changed from 0x2900 to 0x9400
-Patch "IncreaseChaselSlotsArray" located at address 00007FF7398E8A57. Relative: 0x4f8a57.
-Patch "IncreaseChaselSlotsArray2" located at address 00007FF7398E94B0. Relative: 0x4f94b0.
-Patch "ModifyArrayOffset1" located at address 00007FF7398E8A3C. Relative: 0x4f8a3c.
-Patch "ModifyArrayOffset2" located at address 00007FF7398E949A. Relative: 0x4f949a.
-Patch "ModifyArrayOffset3_Multi" located at address 00007FF7398ED30D. Relative: 0x4fd30d.
-Patch "ModifyArrayOffset4" located at address 00007FF7398ED345. Relative: 0x4fd345.
-Patch "PatchStageDef1Top1" located at address 00007FF739541217. Relative: 0x151217.
-Original stage_defs1 located at 00007FF73A29B160 (rel 0xeab160)
-New stage_defs1 allocated at 00007FF73AD40000
-Patch "PatchStageDef1Top2" located at address 00007FF7395E2C0C. Relative: 0x1f2c0c.
-Patch "PatchStageDef1Top3" located at address 00007FF7395F6171. Relative: 0x206171.
-Patch "PatchStageDef1Top4" located at address 00007FF7395F9A29. Relative: 0x209a29.
-Patch "PatchStageDef1Top5" located at address 00007FF7396446CA. Relative: 0x2546ca.
-Patch "PatchStageDef1Top6" located at address 00007FF7397225EA. Relative: 0x3325ea.
-Patch "PatchStageDef1Top7" located at address 00007FF73977ED61. Relative: 0x38ed61.
-Patch "PatchStageDef1Top8" located at address 00007FF73977EE40. Relative: 0x38ee40.
-Patch "PatchStageDef1Top9" located at address 00007FF739A9381F. Relative: 0x6a381f.
-Patch "PatchStageDef1Top10" located at address 00007FF739A939E6. Relative: 0x6a39e6.
-Patch "PatchStageDef1Off8_2" located at address 00007FF739487869. Relative: 0x97869.
-Patch "PatchStageDef1Off8_3+4" located at address 00007FF7396386C5. Relative: 0x2486c5.
-Patch "PatchStageDef1Off8_3+4" located at address 00007FF739638355. Relative: 0x248355.
-Patch "PatchStageDef1Off8_5" located at address 00007FF739641191. Relative: 0x251191.
-Patch "PatchStageDef1Off8_6" located at address 00007FF73971AEDB. Relative: 0x32aedb.
-Patch "PatchStageDef1Off8_7" located at address 00007FF739722510. Relative: 0x332510.
-Patch "PatchStageDef1Off8_8" located at address 00007FF7397250EA. Relative: 0x3350ea.
-Patch "PatchStageDef1Off8_9" located at address 00007FF73972515C. Relative: 0x33515c.
-Patch "PatchStageDef1Off8_10" located at address 00007FF739966043. Relative: 0x576043.
-Patch "PatchStageDef1Off8_11" located at address 00007FF739972E7B. Relative: 0x582e7b.
-Patch "PatchStageDef1CHR" located at address 00007FF7399561B0. Relative: 0x5661b0.
-Patch "PatchStageDef1CHROff8" located at address 00007FF73995623E. Relative: 0x56623e.
-Patch "PatchStageDef1CHROff10" located at address 00007FF7399561F8. Relative: 0x5661f8.
-Patch "PatchStageDef1BottomOff8_1" located at address 00007FF73964120C. Relative: 0x25120c.
-Patch "PatchStageDef1BottomOff8_2" located at address 00007FF73971AEE2. Relative: 0x32aee2.
-Patch "PatchStageDef1BottomOff8_3" located at address 00007FF73972251A. Relative: 0x33251a.
-Patch "PatchStageDef1BottomOff8_4" located at address 00007FF7397250D8. Relative: 0x3350d8.
-Patch "PatchStageDef1BottomOff8_5" located at address 00007FF73972518D. Relative: 0x33518d.
-Patch "PatchStageSsidToIdx1" located at address 00007FF7398F0A45. Relative: 0x500a45.
-Original ssid_to_idx located at 00007FF73A29BBE0 (rel 0xeabbe0)
-New ssid_to_idx allocated at 00007FF73ADF0000
-Patch "PatchStageSsidToIdx2" located at address 00007FF7398F1154. Relative: 0x501154.
-Patch "PatchStageSsidToIdx3" located at address 00007FF7398F11FE. Relative: 0x5011fe.
-Patch "PatchStageF6" located at address 00007FF7395E6B98. Relative: 0x1f6b98.
-Original stage_f6 located at 00007FF73A29BC70 (rel 0xeabc70)
-New stage_f6 allocated at 00007FF73ADE0000
-Patch "PatchStageDef2Top1" located at address 00007FF73951ABED. Relative: 0x12abed.
-Original stage_defs2 located at 00007FF73A26E0C0 (rel 0xe7e0c0)
-New stage_defs2 allocated at 00007FF73AE10000
-Patch "PatchStageDef2Top2" located at address 00007FF73951AC8D. Relative: 0x12ac8d.
-Patch "PatchStageSounds" located at address 00007FF739543910. Relative: 0x153910.
-Original stage_sounds located at 00007FF73A78CA20 (rel 0x139ca20)
-New stage_sounds allocated at 00007FF73AE40000
-Patch "PatchStageMusic" located at address 00007FF73972D590. Relative: 0x33d590.
-Original stage_music located at 00007FF73A2CBA00 (rel 0xedba00)
-New stage_music allocated at 00007FF73AE20000
-Patch "PatchStageNum1+2" located at address 00007FF73963831A. Relative: 0x24831a.
-Patch "PatchStageNum1+2" located at address 00007FF73963868A. Relative: 0x24868a.
-Patch "PatchStageNum3" located at address 00007FF739972E70. Relative: 0x582e70.
-Patch "PatchStageNum8" located at address 00007FF7395438EB. Relative: 0x1538eb.
-Patch "LocateStringCopy" located at address 00007FF739662551. Relative: 0x272551.
-Patch "ReimplementStageEve" located at address 00007FF739662510. Relative: 0x272510.
-Patch "OverrideFarClip" located at address 00007FF7394877B0. Relative: 0x977b0.
-Patch "LocateCoreMainSystemForStages" located at address 00007FF739487837. Relative: 0x97837.
-Patch "IncreaseCoreMainSystemMemory" located at address 00007FF73946DEAC. Relative: 0x7deac.
+Patch "IncreaseChaselSlotsArray" located at address 00007FF7EF3A8A57. Relative: 0x4f8a57.
+Patch "IncreaseChaselSlotsArray2" located at address 00007FF7EF3A94B0. Relative: 0x4f94b0.
+Patch "ModifyArrayOffset1" located at address 00007FF7EF3A8A3C. Relative: 0x4f8a3c.
+Patch "ModifyArrayOffset2" located at address 00007FF7EF3A949A. Relative: 0x4f949a.
+Patch "ModifyArrayOffset3_Multi" located at address 00007FF7EF3AD30D. Relative: 0x4fd30d.
+Patch "ModifyArrayOffset4" located at address 00007FF7EF3AD345. Relative: 0x4fd345.
+Patch "PatchStageDef1Top1" located at address 00007FF7EF001217. Relative: 0x151217.
+Original stage_defs1 located at 00007FF7EFD5B160 (rel 0xeab160)
+New stage_defs1 allocated at 00007FF7F0800000
+Patch "PatchStageDef1Top2" located at address 00007FF7EF0A2C0C. Relative: 0x1f2c0c.
+Patch "PatchStageDef1Top3" located at address 00007FF7EF0B6171. Relative: 0x206171.
+Patch "PatchStageDef1Top4" located at address 00007FF7EF0B9A29. Relative: 0x209a29.
+Patch "PatchStageDef1Top5" located at address 00007FF7EF1046CA. Relative: 0x2546ca.
+Patch "PatchStageDef1Top6" located at address 00007FF7EF1E25EA. Relative: 0x3325ea.
+Patch "PatchStageDef1Top7" located at address 00007FF7EF23ED61. Relative: 0x38ed61.
+Patch "PatchStageDef1Top8" located at address 00007FF7EF23EE40. Relative: 0x38ee40.
+Patch "PatchStageDef1Top9" located at address 00007FF7EF55381F. Relative: 0x6a381f.
+Patch "PatchStageDef1Top10" located at address 00007FF7EF5539E6. Relative: 0x6a39e6.
+Patch "PatchStageDef1Off8_2" located at address 00007FF7EEF47869. Relative: 0x97869.
+Patch "PatchStageDef1Off8_3+4" located at address 00007FF7EF0F86C5. Relative: 0x2486c5.
+Patch "PatchStageDef1Off8_3+4" located at address 00007FF7EF0F8355. Relative: 0x248355.
+Patch "PatchStageDef1Off8_5" located at address 00007FF7EF101191. Relative: 0x251191.
+Patch "PatchStageDef1Off8_6" located at address 00007FF7EF1DAEDB. Relative: 0x32aedb.
+Patch "PatchStageDef1Off8_7" located at address 00007FF7EF1E2510. Relative: 0x332510.
+Patch "PatchStageDef1Off8_8" located at address 00007FF7EF1E50EA. Relative: 0x3350ea.
+Patch "PatchStageDef1Off8_9" located at address 00007FF7EF1E515C. Relative: 0x33515c.
+Patch "PatchStageDef1Off8_10" located at address 00007FF7EF426043. Relative: 0x576043.
+Patch "PatchStageDef1Off8_11" located at address 00007FF7EF432E7B. Relative: 0x582e7b.
+Patch "PatchStageDef1CHR" located at address 00007FF7EF4161B0. Relative: 0x5661b0.
+Patch "PatchStageDef1CHROff8" located at address 00007FF7EF41623E. Relative: 0x56623e.
+Patch "PatchStageDef1CHROff10" located at address 00007FF7EF4161F8. Relative: 0x5661f8.
+Patch "PatchStageDef1BottomOff8_1" located at address 00007FF7EF10120C. Relative: 0x25120c.
+Patch "PatchStageDef1BottomOff8_2" located at address 00007FF7EF1DAEE2. Relative: 0x32aee2.
+Patch "PatchStageDef1BottomOff8_3" located at address 00007FF7EF1E251A. Relative: 0x33251a.
+Patch "PatchStageDef1BottomOff8_4" located at address 00007FF7EF1E50D8. Relative: 0x3350d8.
+Patch "PatchStageDef1BottomOff8_5" located at address 00007FF7EF1E518D. Relative: 0x33518d.
+Patch "PatchStageSsidToIdx1" located at address 00007FF7EF3B0A45. Relative: 0x500a45.
+Original ssid_to_idx located at 00007FF7EFD5BBE0 (rel 0xeabbe0)
+New ssid_to_idx allocated at 00007FF7F08B0000
+Patch "PatchStageSsidToIdx2" located at address 00007FF7EF3B1154. Relative: 0x501154.
+Patch "PatchStageSsidToIdx3" located at address 00007FF7EF3B11FE. Relative: 0x5011fe.
+Patch "PatchStageF6" located at address 00007FF7EF0A6B98. Relative: 0x1f6b98.
+Original stage_f6 located at 00007FF7EFD5BC70 (rel 0xeabc70)
+New stage_f6 allocated at 00007FF7F08A0000
+Patch "PatchStageDef2Top1" located at address 00007FF7EEFDABED. Relative: 0x12abed.
+Original stage_defs2 located at 00007FF7EFD2E0C0 (rel 0xe7e0c0)
+New stage_defs2 allocated at 00007FF7F08D0000
+Patch "PatchStageDef2Top2" located at address 00007FF7EEFDAC8D. Relative: 0x12ac8d.
+Patch "PatchStageSounds" located at address 00007FF7EF003910. Relative: 0x153910.
+Original stage_sounds located at 00007FF7F024CA20 (rel 0x139ca20)
+New stage_sounds allocated at 00007FF7F0900000
+Patch "PatchStageMusic" located at address 00007FF7EF1ED590. Relative: 0x33d590.
+Original stage_music located at 00007FF7EFD8BA00 (rel 0xedba00)
+New stage_music allocated at 00007FF7F08E0000
+Patch "PatchStageNum1+2" located at address 00007FF7EF0F831A. Relative: 0x24831a.
+Patch "PatchStageNum1+2" located at address 00007FF7EF0F868A. Relative: 0x24868a.
+Patch "PatchStageNum3" located at address 00007FF7EF432E70. Relative: 0x582e70.
+Patch "PatchStageNum8" located at address 00007FF7EF0038EB. Relative: 0x1538eb.
+Patch "LocateStringCopy" located at address 00007FF7EF122551. Relative: 0x272551.
+Patch "ReimplementStageEve" located at address 00007FF7EF122510. Relative: 0x272510.
+Patch "OverrideFarClip" located at address 00007FF7EEF477B0. Relative: 0x977b0.
+Patch "LocateCoreMainSystemForStages" located at address 00007FF7EEF47837. Relative: 0x97837.
+Patch "IncreaseCoreMainSystemMemory" located at address 00007FF7EEF2DEAC. Relative: 0x7deac.
 XG::Game::Battle::Core::MainSystem object size increased from 0xae10 to 0xf004
-Patch "ReimplementStageGtClear" located at address 00007FF73951AAE0. Relative: 0x12aae0.
-Patch "ReimplementStageGtDefault" located at address 00007FF73951ABE0. Relative: 0x12abe0.
-Patch "RedirectStageGtFunc2" located at address 00007FF7395F7AE9. Relative: 0x207ae9.
-Patch "ReimplementStageGtFindGate" located at address 00007FF73951ACA0. Relative: 0x12aca0.
-Patch "ReimplementStageGtFindGateByName" located at address 00007FF73951ACF0. Relative: 0x12acf0.
-Patch "ReimplementStageGtGetGate" located at address 00007FF73951AD90. Relative: 0x12ad90.
-Patch "ReimplementStageGtGetExtraByTarget" located at address 00007FF73951ADC0. Relative: 0x12adc0.
-Patch "ReimplementStageGtGetExtraByName" located at address 00007FF73951AE10. Relative: 0x12ae10.
-Patch "ReimplementStageGtGetTarget" located at address 00007FF73951AE90. Relative: 0x12ae90.
-Patch "ReimplementStageGtClearExtra" located at address 00007FF73951AEC0. Relative: 0x12aec0.
-Patch "ReimplementStageGtSet" located at address 00007FF73951AF10. Relative: 0x12af10.
-Patch "ReimplementStageGtSetExtraByTarget" located at address 00007FF73951AF90. Relative: 0x12af90.
-Patch "ReimplementStageGtSetExtraByName" located at address 00007FF73951AFE0. Relative: 0x12afe0.
-Patch "ReimplementStageGtSetUnk10ByTarget" located at address 00007FF73951B080. Relative: 0x12b080.
-Patch "OverrideStageLimit" located at address 00007FF73972BFD5. Relative: 0x33bfd5.
-Patch "LocateBattleInterface_singleton" located at address 00007FF73972BFE0. Relative: 0x33bfe0.
-Patch "ProtectGetCurrentStage2" located at address 00007FF73987E618. Relative: 0x48e618.
-Patch "LocateGameLanguageVar" located at address 00007FF73964C918. Relative: 0x25c918.
-Patch "PatchGetStageName" located at address 00007FF739963EB0. Relative: 0x573eb0.
-Patch "LocateGameDataSingleton" located at address 00007FF7398F11E5. Relative: 0x5011e5.
-Patch "LocateGetSelectedBeforeObject" located at address 00007FF7398F11ED. Relative: 0x5011ed.
-Patch "LocateHasStageBeenSelectedBefore" located at address 00007FF7398F12AC. Relative: 0x5012ac.
-Patch "ProtectGatesReimplementation" located at address 00007FF739530A10. Relative: 0x140a10.
-Patch "IsOzaruHook" located at address 00007FF73950A8A0. Relative: 0x11a8a0.
-Patch "SetBodyShape" located at address 00007FF73960E4E0. Relative: 0x21e4e0.
-Patch "AutoBtlPortrait" located at address 00007FF73956E237. Relative: 0x17e237.
-Patch "ResultPortraitHook" located at address 00007FF7395679A0. Relative: 0x1779a0.
-Patch "CusAuraMapPatch" located at address 00007FF7394D37E8. Relative: 0xe37e8.
-Patch "CusAuraPatchBH11" located at address 00007FF73949E7B3. Relative: 0xae7b3.
-Patch "CusAuraPatchInt2" located at address 00007FF7394EFB30. Relative: 0xffb30.
-Patch "CusAuraPatchBH10" located at address 00007FF73949E0D4. Relative: 0xae0d4.
-Patch "CusAuraPatchInt3" located at address 00007FF7395342AB. Relative: 0x1442ab.
-Patch "CusAuraPatchTeleport" located at address 00007FF73949A7A1. Relative: 0xaa7a1.
-Patch "CusAuraPatchBH13" located at address 00007FF739533852. Relative: 0x143852.
-Patch "CusAuraPatchBcsHairColor" located at address 00007FF73949E0F6. Relative: 0xae0f6.
-Patch "CusAuraPatchBcsHairColor2" located at address 00007FF73949E903. Relative: 0xae903.
-Patch "CusAuraPatchRemoveHairAccessories" located at address 00007FF73949E743. Relative: 0xae743.
-Patch "TtcFilesAliasAudio" located at address 00007FF739ACF361. Relative: 0x6df361.
-Patch "TtcFilesAliasMsg" located at address 00007FF739ACE552. Relative: 0x6de552.
-Patch "AnyDualSkillPatch" located at address 00007FF73951F34B. Relative: 0x12f34b.
-Patch "PatchDualSkillCncLimitation" located at address 00007FF73951F3AD. Relative: 0x12f3ad.
-Patch "StopPCColors" located at address 00007FF739613970. Relative: 0x223970.
-Patch "FixPCTransColorPortrait" located at address 00007FF7394A5C62. Relative: 0xb5c62.
-Patch "ModHLQInGlobalOrb" located at address 00007FF7398AB6DB. Relative: 0x4bb6db.
-Patch "ExtendQEDConditions" located at address 00007FF739ABC420. Relative: 0x6cc420.
-Patch "LocateQmlIdToEventCast" located at address 00007FF739AE52F0. Relative: 0x6f52f0.
-Patch "LocateToggleBattleUIPatch" located at address 00007FF73957031D. Relative: 0x18031d.
-Patch "HookPopupPauseCtor" located at address 00007FF739961600. Relative: 0x571600.
-Patch "LocatePopupPauseBattleRA" located at address 00007FF739540E46. Relative: 0x150e46.
-Patch "UnlockCharaMods" located at address 00007FF7398EDBBC. Relative: 0x4fdbbc.
-187 files were removed in ram for cpk with toc_size=0x3964f0
+Patch "ReimplementStageGtClear" located at address 00007FF7EEFDAAE0. Relative: 0x12aae0.
+Patch "ReimplementStageGtDefault" located at address 00007FF7EEFDABE0. Relative: 0x12abe0.
+Patch "RedirectStageGtFunc2" located at address 00007FF7EF0B7AE9. Relative: 0x207ae9.
+Patch "ReimplementStageGtFindGate" located at address 00007FF7EEFDACA0. Relative: 0x12aca0.
+Patch "ReimplementStageGtFindGateByName" located at address 00007FF7EEFDACF0. Relative: 0x12acf0.
+Patch "ReimplementStageGtGetGate" located at address 00007FF7EEFDAD90. Relative: 0x12ad90.
+Patch "ReimplementStageGtGetExtraByTarget" located at address 00007FF7EEFDADC0. Relative: 0x12adc0.
+Patch "ReimplementStageGtGetExtraByName" located at address 00007FF7EEFDAE10. Relative: 0x12ae10.
+Patch "ReimplementStageGtGetTarget" located at address 00007FF7EEFDAE90. Relative: 0x12ae90.
+Patch "ReimplementStageGtClearExtra" located at address 00007FF7EEFDAEC0. Relative: 0x12aec0.
+Patch "ReimplementStageGtSet" located at address 00007FF7EEFDAF10. Relative: 0x12af10.
+Patch "ReimplementStageGtSetExtraByTarget" located at address 00007FF7EEFDAF90. Relative: 0x12af90.
+Patch "ReimplementStageGtSetExtraByName" located at address 00007FF7EEFDAFE0. Relative: 0x12afe0.
+Patch "ReimplementStageGtSetUnk10ByTarget" located at address 00007FF7EEFDB080. Relative: 0x12b080.
+Patch "OverrideStageLimit" located at address 00007FF7EF1EBFD5. Relative: 0x33bfd5.
+Patch "LocateBattleInterface_singleton" located at address 00007FF7EF1EBFE0. Relative: 0x33bfe0.
+Patch "ProtectGetCurrentStage2" located at address 00007FF7EF33E618. Relative: 0x48e618.
+Patch "LocateGameLanguageVar" located at address 00007FF7EF10C918. Relative: 0x25c918.
+Patch "PatchGetStageName" located at address 00007FF7EF423EB0. Relative: 0x573eb0.
+Patch "LocateGameDataSingleton" located at address 00007FF7EF3B11E5. Relative: 0x5011e5.
+Patch "LocateGetSelectedBeforeObject" located at address 00007FF7EF3B11ED. Relative: 0x5011ed.
+Patch "LocateHasStageBeenSelectedBefore" located at address 00007FF7EF3B12AC. Relative: 0x5012ac.
+Patch "ProtectGatesReimplementation" located at address 00007FF7EEFF0A10. Relative: 0x140a10.
+Patch "IsOzaruHook" located at address 00007FF7EEFCA8A0. Relative: 0x11a8a0.
+Patch "SetBodyShape" located at address 00007FF7EF0CE4E0. Relative: 0x21e4e0.
+Patch "AutoBtlPortrait" located at address 00007FF7EF02E237. Relative: 0x17e237.
+Patch "ResultPortraitHook" located at address 00007FF7EF0279A0. Relative: 0x1779a0.
+Patch "CusAuraMapPatch" located at address 00007FF7EEF937E8. Relative: 0xe37e8.
+Patch "CusAuraPatchBH11" located at address 00007FF7EEF5E7B3. Relative: 0xae7b3.
+Patch "CusAuraPatchInt2" located at address 00007FF7EEFAFB30. Relative: 0xffb30.
+Patch "CusAuraPatchBH10" located at address 00007FF7EEF5E0D4. Relative: 0xae0d4.
+Patch "CusAuraPatchInt3" located at address 00007FF7EEFF42AB. Relative: 0x1442ab.
+Patch "CusAuraPatchTeleport" located at address 00007FF7EEF5A7A1. Relative: 0xaa7a1.
+Patch "CusAuraPatchBH13" located at address 00007FF7EEFF3852. Relative: 0x143852.
+Patch "CusAuraPatchBcsHairColor" located at address 00007FF7EEF5E0F6. Relative: 0xae0f6.
+Patch "CusAuraPatchBcsHairColor2" located at address 00007FF7EEF5E903. Relative: 0xae903.
+Patch "CusAuraPatchRemoveHairAccessories" located at address 00007FF7EEF5E743. Relative: 0xae743.
+Patch "TtcFilesAliasAudio" located at address 00007FF7EF58F361. Relative: 0x6df361.
+Patch "TtcFilesAliasMsg" located at address 00007FF7EF58E552. Relative: 0x6de552.
+Patch "AnyDualSkillPatch" located at address 00007FF7EEFDF34B. Relative: 0x12f34b.
+Patch "PatchDualSkillCncLimitation" located at address 00007FF7EEFDF3AD. Relative: 0x12f3ad.
+Patch "StopPCColors" located at address 00007FF7EF0D3970. Relative: 0x223970.
+Patch "FixPCTransColorPortrait" located at address 00007FF7EEF65C62. Relative: 0xb5c62.
+Patch "ModHLQInGlobalOrb" located at address 00007FF7EF36B6DB. Relative: 0x4bb6db.
+Patch "ExtendQEDConditions" located at address 00007FF7EF57C420. Relative: 0x6cc420.
+Patch "LocateQmlIdToEventCast" located at address 00007FF7EF5A52F0. Relative: 0x6f52f0.
+Patch "LocateToggleBattleUIPatch" located at address 00007FF7EF03031D. Relative: 0x18031d.
+Patch "HookPopupPauseCtor" located at address 00007FF7EF421600. Relative: 0x571600.
+Patch "LocatePopupPauseBattleRA" located at address 00007FF7EF000E46. Relative: 0x150e46.
+Patch "UnlockCharaMods" located at address 00007FF7EF3ADBBC. Relative: 0x4fdbbc.
+211 files were removed in ram for cpk with toc_size=0x3964f0
 4 files were removed in ram for cpk with toc_size=0x7a2b0
-159 files were removed in ram for cpk with toc_size=0x90a20
+212 files were removed in ram for cpk with toc_size=0x90a20
 0 files were removed in ram for cpk with toc_size=0x340
 0 files were removed in ram for cpk with toc_size=0x238
 0 files were removed in ram for cpk with toc_size=0x2c8
@@ -161,3 +161,5 @@ Patch "UnlockCharaMods" located at address 00007FF7398EDBBC. Relative: 0x4fdbbc.
 0 files were removed in ram for cpk with toc_size=0x158
 0 files were removed in ram for cpk with toc_size=0x198
 0 files were removed in ram for cpk with toc_size=0x198
+ChaselMainPatch: 17999 -> 38195
+ChaselMainPatch: 17999 -> 38195

@@ -1,9 +1,3 @@
-<?xml version="1.0" ?>
-<EMB>
-  <!--index:0-->
-  <File name="DATA000.dds" filename="DATA000.dds" />
-  <!--index:1-->
-  <File name="DATA001.dds" filename="DATA001.dds" />
-  <!--index:2-->
-  <File name="DATA002.dds" filename="DATA002.dds" />
-</EMB>
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc95d92665c0331260d3610221c3f3f3aac82d37eb033532bce414f3d4669141
+size 255
