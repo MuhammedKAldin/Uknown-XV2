@@ -162,4 +162,3 @@ Patch "UnlockCharaMods" located at address 00007FF7EF3ADBBC. Relative: 0x4fdbbc.
 0 files were removed in ram for cpk with toc_size=0x198
 0 files were removed in ram for cpk with toc_size=0x198
 ChaselMainPatch: 17999 -> 38195
-ChaselMainPatch: 17999 -> 38195
