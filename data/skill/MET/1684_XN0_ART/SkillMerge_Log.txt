@@ -1,5 +1,0 @@
-BAC Entries:
-0 > 6
-
-BDM Entries:
-500 > 1000
